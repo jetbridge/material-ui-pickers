@@ -63,6 +63,7 @@
     "test:moment": "UTILS=moment npm run test",
     "start": "rollup --config --watch",
     "prebuild": "rimraf build",
+    "prepublish": "npm install && npm run build",
     "build:copy": "node copy.js",
     "build:bundle": "rollup --config",
     "build:typescript": "tsc --project tsconfig.build.json",
