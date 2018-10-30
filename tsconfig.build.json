@@ -13,7 +13,6 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "esModuleInterop": true,
     "suppressImplicitAnyIndexErrors": true,
     "rootDir": "./src"
   },
